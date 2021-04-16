@@ -1,0 +1,31 @@
+.border{
+    position: relative;
+    border: 1px solid black;
+    padding: 10 20 10 20px;
+  }
+  .map{
+    width: 90%;
+    height: 90%;
+    border-radius:50%;
+    margin: auto;
+    
+  }
+  
+  .line{
+    
+    width: 1px;
+    height: 50px;
+  }
+  .chaychu div{
+      animation: chuChay 4s forwards; 
+    }
+@-webkit-keyframes chuChay{
+    font{
+        opacity: 0;
+        margin-bottom: 0px;
+    }
+    to{
+        opacity: 1;
+        margin-bottom: 100px;
+    }
+}

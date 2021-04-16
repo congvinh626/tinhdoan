@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1280px;
+}
+.menu li{
+    float: left;
+    display: inline-block;
+}
+.menu ul {
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.border{
+    position: relative;
+    border: 1px solid black;
+    padding: 20 20 10 20px;
+  }
+  .keyword{
+      border-radius: 20px;
+      height: 30;
+      width: 250;
+  }
+  .btn-search{
+      width: 25px;
+      height: 25px;
+      border: none;
+      top: 15;
+      right: 132;
+      
+  }
+  .fas fa-search{
+      font-size: 26px;
+      color: rgb(255, 51, 0);
+  }
+ 
+  hr{
+      background-color: blue;
+      height: 4px;
+  }
+  ul.tinnoibat li{
+      border-bottom: 1px solid black;
+      padding-left: 30px;
+      text-align: justify;
+  }
+ 
